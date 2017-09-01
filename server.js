@@ -22,7 +22,7 @@ app.listen(PORT, function() {
 });
 
 // var friendList = require("../data/friends");
-
+//===============================apiRoutes.js=====================================
 
 
 	app.get("/api/friends", function(req, res) {
@@ -50,7 +50,7 @@ var matchPicLink = friendsArray[i].photo
 }
 	});
 
-
+//===============================htmlRoutes.js==========================
 var path = require("path");
 
 
@@ -64,7 +64,8 @@ var path = require("path");
     res.sendFile(path.join(__dirname, "app/public/home.html"));
   });
 
-  
+ //========================================================================
+ //=======================================friends.js==================================== 
 
   var friendsArray = [
 {
